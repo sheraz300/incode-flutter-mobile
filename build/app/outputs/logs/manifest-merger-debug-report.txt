@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:2:5-33:19
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
-MERGED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
-MERGED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:2:5-33:19
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
+MERGED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
 MERGED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/apple/.gradle/caches/transforms-3/eac16b04f59ad1a4bfec4b9d0762d780/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:23:5-34:19
@@ -39,26 +39,26 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/ap
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/apple/.gradle/caches/transforms-3/307464a006f25f981b355f851ed967d7/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/apple/.gradle/caches/transforms-3/307464a006f25f981b355f851ed967d7/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/apple/.gradle/caches/transforms-3/c666c258fca39b3353b46678a6b928ab/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:1:1-45:12
-MERGED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:1:1-45:12
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-MERGED from [:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
-MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Downloads/incode/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:path_provider_android] /Users/apple/Downloads/incode/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler_android] /Users/apple/Downloads/incode/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences_android] /Users/apple/Downloads/incode/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:sqflite_android] /Users/apple/Downloads/incode/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:path_provider_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/apple/.gradle/caches/transforms-3/eac16b04f59ad1a4bfec4b9d0762d780/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.camera:camera-lifecycle:1.3.1] /Users/apple/.gradle/caches/transforms-3/7696293ee79ffad470b7e4fa2ec075e5/transformed/jetified-camera-lifecycle-1.3.1/AndroidManifest.xml:2:1-7:12
@@ -106,55 +106,55 @@ MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/apple/.gradle/ca
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/apple/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/apple/.gradle/caches/transforms-3/307464a006f25f981b355f851ed967d7/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 	package
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:1:11-69
 queries
-ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:39:5-44:15
-MERGED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
-MERGED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:39:5-44:15
+MERGED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+MERGED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:40:9-43:18
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:40:9-43:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:41:13-72
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:41:13-72
 	android:name
-		ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:41:21-70
+		ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:41:21-70
 data
-ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:13-50
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:13-50
 	android:mimeType
-		ADDED from /Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:19-48
+		ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:19-48
 uses-permission#android.permission.INTERNET
-ADDED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/apple/.gradle/caches/transforms-3/9c8761b97dd2daea4255d9795b3b0a5b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/apple/.gradle/caches/transforms-3/9c8761b97dd2daea4255d9795b3b0a5b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
-MERGED from [:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Downloads/incode/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Downloads/incode/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/apple/Downloads/incode/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/apple/Downloads/incode/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/apple/Downloads/incode/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler_android] /Users/apple/Downloads/incode/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/apple/Downloads/incode/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/apple/Downloads/incode/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] /Users/apple/Downloads/incode/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite_android] /Users/apple/Downloads/incode/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
+MERGED from [:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/sqflite_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/apple/.gradle/caches/transforms-3/eac16b04f59ad1a4bfec4b9d0762d780/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:21:5-44
@@ -248,77 +248,77 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/apple/.gr
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/apple/.gradle/caches/transforms-3/307464a006f25f981b355f851ed967d7/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/apple/.gradle/caches/transforms-3/307464a006f25f981b355f851ed967d7/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+ADDED from [:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/apple/.gradle/caches/transforms-3/9c8761b97dd2daea4255d9795b3b0a5b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/apple/.gradle/caches/transforms-3/9c8761b97dd2daea4255d9795b3b0a5b/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/apple/.gradle/caches/transforms-3/b4e64a3471a767b6ec14537f8f362b5b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/apple/.gradle/caches/transforms-3/b4e64a3471a767b6ec14537f8f362b5b/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+		ADDED from [:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:38
+ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:38
 	android:maxSdkVersion
-		ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-35
+		ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-35
 	android:name
-		ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
+		ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
-ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
 action#android.intent.action.GET_CONTENT
-ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
 	android:name
-		ADDED from [:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+		ADDED from [:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
 	android:authorities
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 	android:exported
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 	android:name
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
 	android:resource
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
 	android:name
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 service#com.google.android.gms.metadata.ModuleDependencies
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
 	android:enabled
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
 	android:exported
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
 	tools:ignore
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-40
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-40
 	android:name
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
 intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
 action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
 	android:name
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
 meta-data#photopicker_activity:0:required
-ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
 	android:value
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
 	android:name
-		ADDED from [:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+		ADDED from [:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
 uses-permission#android.permission.CAMERA
-ADDED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
+ADDED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
+		ADDED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
 uses-feature#android.hardware.camera
-ADDED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
+ADDED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
 	android:required
-		ADDED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
+		ADDED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
 	android:name
-		ADDED from [:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-47
+		ADDED from [:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-47
 service#androidx.camera.core.impl.MetadataHolderService
 ADDED from [androidx.camera:camera-core:1.3.1] /Users/apple/.gradle/caches/transforms-3/e188edaf9134f9f7429e744a1c7cbce0/transformed/jetified-camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
 MERGED from [androidx.camera:camera-camera2:1.3.1] /Users/apple/.gradle/caches/transforms-3/eac16b04f59ad1a4bfec4b9d0762d780/transformed/jetified-camera-camera2-1.3.1/AndroidManifest.xml:24:9-33:19

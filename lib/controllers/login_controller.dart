@@ -33,9 +33,43 @@ class LoginController extends GetxController {
         r'x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])';
     final regex = RegExp(pattern);
 
-    return value!.isNotEmpty && !regex.hasMatch(value)
-        ? 'Enter a valid email address'
-        : null;
+    // Check if the value is empty
+    if (value == null || value.isEmpty) {
+      return 'Email cannot be empty';
+    }
+
+    // Check if the email length exceeds 200 characters
+    if (value.length > 200) {
+      return 'Email cannot exceed 200 characters';
+    }
+
+    // Check if the email matches the regex pattern
+    if (!regex.hasMatch(value)) {
+      return 'Enter a valid email address';
+    }
+
+    // If all checks pass, return null
+    return null;
+  }
+
+  String? validatePassword(String? value) {
+    // Check if the value is empty
+    if (value == null || value.isEmpty) {
+      return 'Password cannot be empty';
+    }
+
+    // Check if the password length exceeds 200 characters
+    if (value.length > 200) {
+      return 'Password cannot exceed 200 characters';
+    }
+
+    // Optional: Add other password strength checks, e.g. minimum length, special characters, etc.
+    // Example: Ensure the password is at least 8 characters long (you can adjust as needed)
+    if (value.length < 6) {
+      return 'Password must be at least 6 characters';
+    }
+    // If all checks pass, return null (indicating the password is valid)
+    return null;
   }
 
   Future<void> loginWithEmail() async {

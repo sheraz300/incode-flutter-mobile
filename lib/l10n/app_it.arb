@@ -1,0 +1,12 @@
+{
+  "login": "Accesso",
+  "email": "Email",
+  "email_hint": "johnmac@gmail.com",
+  "password": "Password",
+  "password_hint": "La tua Password",
+  "no_account": "Non hai un account?",
+  "register_now": "Registrati ora",
+  "login_button": "Accedi",
+  "created_with": "Creato con <3 da",
+  "company": "Fenix HUB"
+}

@@ -9,164 +9,206 @@ import 'package:incode/common_widgets/app_textfield.dart';
 import 'package:incode/constants/input_formatters.dart';
 import 'package:incode/custom_widgets/custom_loader.dart';
 import 'package:incode/controllers/login_controller.dart';
+import 'package:incode/localization/localization_controller.dart';
 import '../../constants/validators.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AuthScreen extends GetView<LoginController> {
   AuthScreen({super.key});
   final loginFormKey = GlobalKey<FormState>();
 
+  var locController = Get.put(LocalizationController());
+
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
-
-    return Scaffold(
-      resizeToAvoidBottomInset: false,
-      backgroundColor: Colors.white,
-      body: Stack(
-        children: [
-          Column(
-            children: [
-              SizedBox(
-                height: height * 0.75,
-                child: ClipPath(
-                  clipper: OvalBottomBorderClipper(),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                      gradient: LinearGradient(
-                        begin: Alignment(0.00, -1.00),
-                        end: Alignment(0, 1),
-                        colors: [
-                          Color(0xFFDD1527),
-                          Color(0xFF7D0C16),
-                        ],
+    final localize = AppLocalizations.of(context)!;
+    return Obx(
+      () => Scaffold(
+        resizeToAvoidBottomInset: false,
+        backgroundColor: Colors.white,
+        body: Stack(
+          children: [
+            Column(
+              children: [
+                SizedBox(
+                  height: height * 0.75,
+                  child: ClipPath(
+                    clipper: OvalBottomBorderClipper(),
+                    child: Container(
+                      decoration: const BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment(0.00, -1.00),
+                          end: Alignment(0, 1),
+                          colors: [
+                            Color(0xFFDD1527),
+                            Color(0xFF7D0C16),
+                          ],
+                        ),
                       ),
-                    ),
-                    child: FadeInUp(
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 50),
-                        child: Form(
-                          key: loginFormKey,
-                          child: ListView(
-                            clipBehavior: Clip.antiAliasWithSaveLayer,
-                            padding: EdgeInsets.zero,
-                            children: [
-                              SizedBox(
-                                height: height * 0.15,
-                              ),
-                              Image.asset(
-                                'assets/images/logo.png',
-                                height: 100,
-                              ),
-                              const SizedBox(height: 20),
-                              const Text(
-                                'Login',
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  fontSize: 40,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
+                      child: FadeInUp(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 50),
+                          child: Form(
+                            key: loginFormKey,
+                            child: ListView(
+                              clipBehavior: Clip.antiAliasWithSaveLayer,
+                              padding: EdgeInsets.zero,
+                              children: [
+                                SizedBox(
+                                  height: height * 0.15,
                                 ),
-                              ),
-                              const SizedBox(height: 15),
-                              CustomTextFormField(
-                                cursorColor: Colors.black,
-                                title: 'Email',
-                                isRequired: true,
-                                hintText: 'johnmac@gmail.com',
-                                controller: controller.emailController,
-                                validator: controller.validateEmail,
-                                inputFormatters: InputFormat.denySpace,
-                                keyboardType: TextInputType.emailAddress,
-                                autofillHints: const [AutofillHints.email],
-                                suffixWidget: Icon(
-                                  Icons.email,
-                                  size: 20,
-                                  color: Colors.black,
+                                Image.asset(
+                                  'assets/images/logo.png',
+                                  height: 100,
                                 ),
-                              ),
-                              const SizedBox(height: 15),
-                              Obx(
-                                () => CustomTextFormField(
+                                const SizedBox(height: 20),
+                                Text(
+                                  AppLocalizations.of(context)!.login,
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                const SizedBox(height: 15),
+                                CustomTextFormField(
                                   cursorColor: Colors.black,
-                                  title: 'Password',
+                                  title: AppLocalizations.of(context)!.email,
                                   isRequired: true,
-                                  hintText: 'Your Password',
-                                  controller: controller.passwordController,
-                                  keyboardType: TextInputType.text,
-                                  obscureText:
-                                      !controller.isPasswordVisible.value,
-                                  autofillHints: const [AutofillHints.password],
+                                  hintText:
+                                      AppLocalizations.of(context)!.email_hint,
+                                  controller: controller.emailController,
+                                  validator: controller.validateEmail,
                                   inputFormatters: InputFormat.denySpace,
-                                  suffixWidget: InkWell(
-                                    onTap: () {
-                                      controller.togglePassword();
-                                    },
-                                    child: Icon(
-                                      controller.isPasswordVisible.value
-                                          ? EneftyIcons.eye_slash_bold
-                                          : EneftyIcons.eye_bold,
-                                      size: 20,
-                                      color: Colors.black,
+                                  keyboardType: TextInputType.emailAddress,
+                                  autofillHints: const [AutofillHints.email],
+                                  suffixWidget: Icon(
+                                    Icons.email,
+                                    size: 20,
+                                    color: Colors.black,
+                                  ),
+                                ),
+                                const SizedBox(height: 15),
+                                Obx(
+                                  () => CustomTextFormField(
+                                    cursorColor: Colors.black,
+                                    title:
+                                        AppLocalizations.of(context)!.password,
+                                    isRequired: true,
+                                    hintText: AppLocalizations.of(context)!
+                                        .password_hint,
+                                    controller: controller.passwordController,
+                                    validator: controller.validatePassword,
+                                    keyboardType: TextInputType.text,
+                                    obscureText:
+                                        !controller.isPasswordVisible.value,
+                                    autofillHints: const [
+                                      AutofillHints.password
+                                    ],
+                                    inputFormatters: InputFormat.denySpace,
+                                    suffixWidget: InkWell(
+                                      onTap: () {
+                                        controller.togglePassword();
+                                      },
+                                      child: Icon(
+                                        controller.isPasswordVisible.value
+                                            ? EneftyIcons.eye_slash_bold
+                                            : EneftyIcons.eye_bold,
+                                        size: 20,
+                                        color: Colors.black,
+                                      ),
                                     ),
                                   ),
                                 ),
-                              ),
-                              const SizedBox(height: 30),
-                            ],
+                                const SizedBox(height: 30),
+                              ],
+                            ),
                           ),
                         ),
                       ),
                     ),
                   ),
                 ),
-              ),
-              const SizedBox(height: 60),
-              // const Text(
-              //   'Login with Touch Id',
-              //   style: TextStyle(
-              //     color: Color(0xFFAEA7A7),
-              //     fontSize: 12,
-              //     fontWeight: FontWeight.w400,
-              //   ),
-              // ),
-              // const SizedBox(height: 20),
-              // Container(
-              //   padding: const EdgeInsets.all(10),
-              //   decoration: BoxDecoration(
-              //     color: Colors.white,
-              //     borderRadius: BorderRadius.circular(10),
-              //     border: Border.all(
-              //       color: Colors.orange,
-              //       width: 2,
-              //     ),
-              //   ),
-              //   child: const Icon(Icons.fingerprint_outlined, size: 40),
-              // ),
-              // const SizedBox(height: 20),
-              // const Text(
-              //   'Or connect with ',
-              //   style: TextStyle(
-              //     color: Color(0xFFAEA7A7),
-              //     fontSize: 12,
-              //     fontWeight: FontWeight.w400,
-              //   ),
-              // ),
-              buildReg(),
-              const Spacer(),
-              _buildCompanyText()
-            ],
-          ),
-          Positioned(
+                const SizedBox(height: 60),
+                // const Text(
+                //   'Login with Touch Id',
+                //   style: TextStyle(
+                //     color: Color(0xFFAEA7A7),
+                //     fontSize: 12,
+                //     fontWeight: FontWeight.w400,
+                //   ),
+                // ),
+                // const SizedBox(height: 20),
+                // Container(
+                //   padding: const EdgeInsets.all(10),
+                //   decoration: BoxDecoration(
+                //     color: Colors.white,
+                //     borderRadius: BorderRadius.circular(10),
+                //     border: Border.all(
+                //       color: Colors.orange,
+                //       width: 2,
+                //     ),
+                //   ),
+                //   child: const Icon(Icons.fingerprint_outlined, size: 40),
+                // ),
+                // const SizedBox(height: 20),
+                // const Text(
+                //   'Or connect with ',
+                //   style: TextStyle(
+                //     color: Color(0xFFAEA7A7),
+                //     fontSize: 12,
+                //     fontWeight: FontWeight.w400,
+                //   ),
+                // ),
+                buildReg(localize),
+                const Spacer(),
+                _buildCompanyText(localize)
+              ],
+            ),
+            Positioned(
               top: height * 0.71,
               right: 0,
               left: 0,
-              child: _buildLoginBtn(controller)),
-        ],
+              child: _buildLoginBtn(controller, localize),
+            ),
+            Positioned(
+              top: height * 0.08, // Adjust top position
+              right: height * 0.02,
+              child: DropdownButton<String>(
+                value: locController.locale.languageCode,
+                items: const [
+                  DropdownMenuItem(value: 'en', child: Text('English')),
+                  DropdownMenuItem(value: 'it', child: Text('Italian')),
+                ],
+                onChanged: (String? value) {
+                  if (value != null) {
+                    locController.setLocale(Locale(value));
+                    // Change locale using GetX
+                    Get.updateLocale(
+                        Locale(value)); // Switch to Italian locale for example
+                  }
+                },
+                icon: Icon(
+                  Icons.arrow_drop_down,
+                  color: Colors.white,
+                ),
+                style: const TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 
-  GestureDetector _buildLoginBtn(LoginController controller) {
+  GestureDetector _buildLoginBtn(
+      LoginController controller, AppLocalizations localize) {
     return GestureDetector(
       onTap: () {
         // Get.toNamed(AppRoutes.DASHBOARD);
@@ -200,8 +242,8 @@ class AuthScreen extends GetView<LoginController> {
                       color: Color(0xFF7D0C16),
                     ),
                   )
-                : const Text(
-                    'Login',
+                : Text(
+                    localize.login,
                     style: TextStyle(
                       fontSize: 20,
                       color: Color(0xff4D7EF9),
@@ -214,12 +256,12 @@ class AuthScreen extends GetView<LoginController> {
     );
   }
 
-  Text _buildCompanyText() {
-    return const Text.rich(
+  Text _buildCompanyText(AppLocalizations localize) {
+    return Text.rich(
       TextSpan(
         children: [
           TextSpan(
-            text: 'Created with <3 by',
+            text: localize.created_with,
             style: TextStyle(
               color: Colors.black,
               fontSize: 17,
@@ -227,7 +269,7 @@ class AuthScreen extends GetView<LoginController> {
             ),
           ),
           TextSpan(
-            text: '  Fenix ​​HUB',
+            text: "  ${localize.company}",
             style: TextStyle(
               color: Colors.redAccent,
               fontSize: 18,
@@ -239,7 +281,7 @@ class AuthScreen extends GetView<LoginController> {
     );
   }
 
-  Widget buildReg() {
+  Widget buildReg(AppLocalizations localize) {
     return InkWell(
       onTap: () {
         controller.emailController.clear();
@@ -250,11 +292,11 @@ class AuthScreen extends GetView<LoginController> {
         height: 66,
         color: Colors.black,
         alignment: Alignment.center,
-        child: const Text.rich(
+        child: Text.rich(
           TextSpan(
             children: [
               TextSpan(
-                text: 'Don’t have an account?',
+                text: localize.no_account,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 17,
@@ -262,7 +304,7 @@ class AuthScreen extends GetView<LoginController> {
                 ),
               ),
               TextSpan(
-                text: ' Register Now',
+                text: "  ${localize.register_now}",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,

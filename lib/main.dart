@@ -1,12 +1,13 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:incode/bindings/all_bindings.dart';
 import 'package:incode/constants/app_colors.dart';
 import 'package:incode/routes/app_routes.dart';
 import 'package:incode/screens/auth/signup_screen.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 // ignore: unused_import
 import 'package:incode/screens/welcome_screen.dart';
 import 'package:oktoast/oktoast.dart';
@@ -53,6 +54,16 @@ class MyApp extends StatelessWidget {
         getPages: appRoutes(),
         initialBinding: AllBindings(),
         debugShowCheckedModeBanner: false,
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        supportedLocales: const [
+          Locale('en'), // English
+          Locale('it'), // Italian
+        ],
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: AppColors.kPrimary),
           useMaterial3: true,

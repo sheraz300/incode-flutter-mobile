@@ -1,0 +1,4 @@
+#Wed Nov 06 01:32:45 PKT 2024
+base.0=/Users/apple/Documents/GitHub/incode-flutter-mobile/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:6:5-66
-15-->/Users/apple/Downloads/incode/android/app/src/debug/AndroidManifest.xml:6:22-64
+15-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -23,48 +23,48 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:39:5-44:15
+23-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:39:5-44:15
 24        <intent>
-24-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:40:9-43:18
+24-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:40:9-43:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:41:13-72
-25-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:41:21-70
+25-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:41:13-72
+25-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:41:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:13-50
-27-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:19-48
+27-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:13-50
+27-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:19-48
 28        </intent>
 29        <intent>
-29-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+29-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
 30            <action android:name="android.intent.action.GET_CONTENT" />
-30-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
-30-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+30-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+30-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
 31
 32            <data android:mimeType="*/*" />
-32-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:13-50
-32-->/Users/apple/Downloads/incode/android/app/src/main/AndroidManifest.xml:42:19-48
+32-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:13-50
+32-->/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/AndroidManifest.xml:42:19-48
 33        </intent>
 34    </queries>
 35
 36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-36-->[:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
-36-->[:connectivity_plus] /Users/apple/Downloads/incode/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+36-->[:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+36-->[:connectivity_plus] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
 37    <uses-permission
-37-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:38
+37-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-9:38
 38        android:name="android.permission.READ_EXTERNAL_STORAGE"
-38-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
+38-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
 39        android:maxSdkVersion="32" />
-39-->[:file_picker] /Users/apple/Downloads/incode/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-35
+39-->[:file_picker] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-35
 40    <uses-permission android:name="android.permission.CAMERA" />
-40-->[:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
-40-->[:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
+40-->[:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
+40-->[:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
 41
 42    <uses-feature
-42-->[:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
+42-->[:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
 43        android:name="android.hardware.camera"
-43-->[:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-47
+43-->[:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-47
 44        android:required="false" />
-44-->[:mobile_scanner] /Users/apple/Downloads/incode/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
+44-->[:mobile_scanner] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
 45
 46    <permission
 46-->[androidx.core:core:1.13.1] /Users/apple/.gradle/caches/transforms-3/c666c258fca39b3353b46678a6b928ab/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
@@ -120,43 +120,43 @@
 91            android:value="2" />
 92
 93        <provider
-93-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+93-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
 94            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-94-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+94-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
 95            android:authorities="com.example.incode.flutter.image_provider"
-95-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+95-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 96            android:exported="false"
-96-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+96-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 97            android:grantUriPermissions="true" >
-97-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+97-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
 98            <meta-data
-98-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+98-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
 99                android:name="android.support.FILE_PROVIDER_PATHS"
-99-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+99-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
 100                android:resource="@xml/flutter_image_picker_file_paths" />
-100-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+100-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
 101        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
 102        <service
-102-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+102-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
 103            android:name="com.google.android.gms.metadata.ModuleDependencies"
-103-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+103-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
 104            android:enabled="false"
-104-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+104-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
 105            android:exported="false" >
-105-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+105-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
 106            <intent-filter>
-106-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+106-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
 107                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
-107-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
-107-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+107-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+107-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
 108            </intent-filter>
 109
 110            <meta-data
-110-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+110-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
 111                android:name="photopicker_activity:0:required"
-111-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+111-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
 112                android:value="" />
-112-->[:image_picker_android] /Users/apple/Downloads/incode/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+112-->[:image_picker_android] /Users/apple/Documents/GitHub/incode-flutter-mobile/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
 113        </service>
 114        <!--
 115        Service for holding metadata. Cannot be instantiated.

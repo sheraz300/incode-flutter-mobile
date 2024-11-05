@@ -4,7 +4,7 @@
             "outputFile": "com.example.incode.app-mergeDebugResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/apple/Downloads/incode/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/apple/Documents/GitHub/incode-flutter-mobile/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
