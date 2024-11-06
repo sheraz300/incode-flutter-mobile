@@ -19,12 +19,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      appBar: AppBar(backgroundColor: const Color(0xFFDD1527), actions: [
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: logoutBtn(),
-        )
-      ]),
+      appBar: AppBar(
+        backgroundColor: const Color(0xFFDD1527),
+      ),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -70,6 +67,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: Colors.white,
                           ),
                         )),
+              // const Spacer(),
+              const SizedBox(
+                height: 300,
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: logoutBtn(),
+              )
             ],
           ),
         ),
@@ -86,8 +91,8 @@ class _HomeScreenState extends State<HomeScreen> {
       },
       child: Center(
         child: Container(
-          width: 80,
-          height: 30,
+          width: 170,
+          height: 53,
           alignment: Alignment.center,
           decoration: ShapeDecoration(
             color: const Color.fromARGB(255, 255, 255, 255),
@@ -104,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           child: const Text(
-            "logout",
+            "Logout",
             style: TextStyle(
               fontSize: 14,
               color: Colors.black,
