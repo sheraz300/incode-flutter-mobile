@@ -121,6 +121,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/Users/apple/Documents/GitHub/incode-flutter-mobile/android@@:webview_flutter_android::release"
+      jars="/Users/apple/Documents/GitHub/incode-flutter-mobile/build/webview_flutter_android/.transforms/87b82990aa1eb0a2535659407d6d6a2b/transformed/out/jars/classes.jar:/Users/apple/Documents/GitHub/incode-flutter-mobile/build/webview_flutter_android/.transforms/87b82990aa1eb0a2535659407d6d6a2b/transformed/out/jars/libs/R.jar"
+      resolved="io.flutter.plugins.webviewflutter:webview_flutter_android:unspecified"
+      folder="/Users/apple/Documents/GitHub/incode-flutter-mobile/build/webview_flutter_android/.transforms/87b82990aa1eb0a2535659407d6d6a2b/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="io.flutter:flutter_embedding_release:1.0.0-db49896cf25ceabc44096d5f088d86414e05a7aa@jar"
       jars="/Users/apple/.gradle/caches/modules-2/files-2.1/io.flutter/flutter_embedding_release/1.0.0-db49896cf25ceabc44096d5f088d86414e05a7aa/9ff06a3e2b6d378066ecec963d00d5d3b288f37/flutter_embedding_release-1.0.0-db49896cf25ceabc44096d5f088d86414e05a7aa.jar"
       resolved="io.flutter:flutter_embedding_release:1.0.0-db49896cf25ceabc44096d5f088d86414e05a7aa"/>
@@ -420,10 +433,10 @@
       jars="/Users/apple/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.22/4dabb8248310d833bb6a8b516024a91fd3d275c/kotlin-stdlib-jdk7-1.8.22.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"/>
   <library
-      name="androidx.annotation:annotation-experimental:1.4.0@aar"
-      jars="/Users/apple/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0/jars/classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.4.0"
-      folder="/Users/apple/.gradle/caches/transforms-3/6707c561045b071954f9f1d8398a2530/transformed/jetified-annotation-experimental-1.4.0"
+      name="androidx.annotation:annotation-experimental:1.4.1@aar"
+      jars="/Users/apple/.gradle/caches/transforms-3/7b35585ee1f8891c2fe177f145bd87e4/transformed/jetified-annotation-experimental-1.4.1/jars/classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.1"
+      folder="/Users/apple/.gradle/caches/transforms-3/7b35585ee1f8891c2fe177f145bd87e4/transformed/jetified-annotation-experimental-1.4.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -618,6 +631,19 @@
       jars="/Users/apple/.gradle/caches/transforms-3/fdbb3cf6ca045f2cd53bc368c4b64c16/transformed/jetified-play-services-basement-18.1.0/jars/classes.jar"
       resolved="com.google.android.gms:play-services-basement:18.1.0"
       folder="/Users/apple/.gradle/caches/transforms-3/fdbb3cf6ca045f2cd53bc368c4b64c16/transformed/jetified-play-services-basement-18.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.webkit:webkit:1.12.1@aar"
+      jars="/Users/apple/.gradle/caches/transforms-3/e41db09f4a417a719f3e0f2572503bbc/transformed/webkit-1.12.1/jars/classes.jar"
+      resolved="androidx.webkit:webkit:1.12.1"
+      folder="/Users/apple/.gradle/caches/transforms-3/e41db09f4a417a719f3e0f2572503bbc/transformed/webkit-1.12.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

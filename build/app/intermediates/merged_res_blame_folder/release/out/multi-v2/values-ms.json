@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.incode.app-mergeReleaseResources-31:/values-ms/values-ms.xml",
+            "outputFile": "com.example.incode.app-mergeReleaseResources-32:/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/c666c258fca39b3353b46678a6b928ab/transformed/core-1.13.1/res/values-ms/values-ms.xml",

@@ -125,6 +125,12 @@ abstract class AppLocalizations {
   /// **'Your Password'**
   String get password_hint;
 
+  /// No description provided for @forget_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you forget your password?'**
+  String get forget_password;
+
   /// No description provided for @no_account.
   ///
   /// In en, this message translates to:
@@ -146,7 +152,7 @@ abstract class AppLocalizations {
   /// No description provided for @created_with.
   ///
   /// In en, this message translates to:
-  /// **'Created with <3 by'**
+  /// **'Crafted with ❤ by'**
   String get created_with;
 
   /// No description provided for @company.

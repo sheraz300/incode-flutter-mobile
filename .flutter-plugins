@@ -32,3 +32,6 @@ shared_preferences_windows=/Users/apple/.pub-cache/hosted/pub.dev/shared_prefere
 sqflite=/Users/apple/.pub-cache/hosted/pub.dev/sqflite-2.4.0/
 sqflite_android=/Users/apple/.pub-cache/hosted/pub.dev/sqflite_android-2.4.0/
 sqflite_darwin=/Users/apple/.pub-cache/hosted/pub.dev/sqflite_darwin-2.4.1-1/
+webview_flutter=/Users/apple/.pub-cache/hosted/pub.dev/webview_flutter-4.10.0/
+webview_flutter_android=/Users/apple/.pub-cache/hosted/pub.dev/webview_flutter_android-4.0.1/
+webview_flutter_wkwebview=/Users/apple/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.16.1/

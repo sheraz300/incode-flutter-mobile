@@ -16,6 +16,9 @@ class LoginController extends GetxController {
   RxBool isLoading = false.obs;
   RxBool islogging = false.obs;
   RxBool isPasswordVisible = false.obs;
+  var dropdownValue = 'it'.obs; // Default selection
+  RxList<String> list = ['en', 'it'].obs;
+  var isDropdownOpen = false.obs;
 
   LoginResponseModel? loginResponseModel;
 
@@ -110,7 +113,7 @@ class LoginController extends GetxController {
               title: const Text(
                 'Error',
                 style: TextStyle(
-                  color: Colors.red,
+                  color: Color(0xFF7D0C16),
                   fontWeight: FontWeight.bold,
                   fontSize: 18,
                 ),
@@ -140,7 +143,7 @@ class LoginController extends GetxController {
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: const Color(0xFF7D0C16),
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: const Text(

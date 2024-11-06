@@ -7537,6 +7537,292 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
+androidx.webkit.CookieManagerCompat
+androidx.webkit.DropDataContentProvider
+androidx.webkit.JavaScriptReplyProxy
+androidx.webkit.ProcessGlobalConfig
+androidx.webkit.Profile
+androidx.webkit.ProfileStore
+androidx.webkit.ProxyConfig$Builder
+androidx.webkit.ProxyConfig$ProxyRule
+androidx.webkit.ProxyConfig$ProxyScheme
+androidx.webkit.ProxyConfig
+androidx.webkit.ProxyController$LAZY_HOLDER
+androidx.webkit.ProxyController
+androidx.webkit.R
+androidx.webkit.SafeBrowsingResponseCompat:
+    public abstract void backToSafety(boolean)
+    public abstract void proceed(boolean)
+androidx.webkit.ScriptHandler
+androidx.webkit.ServiceWorkerClientCompat
+androidx.webkit.ServiceWorkerControllerCompat$LAZY_HOLDER
+androidx.webkit.ServiceWorkerControllerCompat
+androidx.webkit.ServiceWorkerWebSettingsCompat$CacheMode
+androidx.webkit.ServiceWorkerWebSettingsCompat
+androidx.webkit.TracingConfig$Builder
+androidx.webkit.TracingConfig$PredefinedCategories
+androidx.webkit.TracingConfig$TracingMode
+androidx.webkit.TracingConfig
+androidx.webkit.TracingController$LAZY_HOLDER
+androidx.webkit.TracingController
+androidx.webkit.URLUtilCompat
+androidx.webkit.UserAgentMetadata$1
+androidx.webkit.UserAgentMetadata$BrandVersion$Builder
+androidx.webkit.UserAgentMetadata$BrandVersion
+androidx.webkit.UserAgentMetadata$Builder
+androidx.webkit.UserAgentMetadata
+androidx.webkit.WebMessageCompat$Type
+androidx.webkit.WebMessageCompat
+androidx.webkit.WebMessagePortCompat$WebMessageCallbackCompat
+androidx.webkit.WebMessagePortCompat
+androidx.webkit.WebResourceErrorCompat$NetErrorCode
+androidx.webkit.WebResourceRequestCompat
+androidx.webkit.WebSettingsCompat$ExperimentalBackForwardCache
+androidx.webkit.WebSettingsCompat$ExperimentalSpeculativeLoading
+androidx.webkit.WebSettingsCompat$ForceDark
+androidx.webkit.WebSettingsCompat$ForceDarkStrategy
+androidx.webkit.WebSettingsCompat$MenuItemFlags
+androidx.webkit.WebSettingsCompat
+androidx.webkit.WebViewAssetLoader$AssetsPathHandler
+androidx.webkit.WebViewAssetLoader$Builder
+androidx.webkit.WebViewAssetLoader$InternalStoragePathHandler
+androidx.webkit.WebViewAssetLoader$PathHandler
+androidx.webkit.WebViewAssetLoader$PathMatcher
+androidx.webkit.WebViewAssetLoader$ResourcesPathHandler
+androidx.webkit.WebViewAssetLoader
+androidx.webkit.WebViewClientCompat$SafeBrowsingThreat
+androidx.webkit.WebViewClientCompat:
+    public void onReceivedHttpError(android.webkit.WebView,android.webkit.WebResourceRequest,android.webkit.WebResourceResponse)
+    public boolean onWebAuthnIntent(android.webkit.WebView,android.app.PendingIntent,java.lang.reflect.InvocationHandler)
+    public boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest)
+androidx.webkit.WebViewCompat$VisualStateCallback
+androidx.webkit.WebViewCompat$WebMessageListener
+androidx.webkit.WebViewCompat:
+    private void <init>()
+    public static androidx.webkit.ScriptHandler addDocumentStartJavaScript(android.webkit.WebView,java.lang.String,java.util.Set)
+    public static void addWebMessageListener(android.webkit.WebView,java.lang.String,java.util.Set,androidx.webkit.WebViewCompat$WebMessageListener)
+    private static void checkThread(android.webkit.WebView)
+    private static org.chromium.support_lib_boundary.WebViewProviderBoundaryInterface createProvider(android.webkit.WebView)
+    public static androidx.webkit.WebMessagePortCompat[] createWebMessageChannel(android.webkit.WebView)
+    public static android.content.pm.PackageInfo getCurrentWebViewPackage(android.content.Context)
+    private static android.content.pm.PackageInfo getNotYetLoadedWebViewPackageInfo(android.content.Context)
+    public static androidx.webkit.Profile getProfile(android.webkit.WebView)
+    private static androidx.webkit.internal.WebViewProviderAdapter getProvider(android.webkit.WebView)
+    public static android.net.Uri getSafeBrowsingPrivacyPolicyUrl()
+    public static java.lang.String getVariationsHeader()
+    public static android.webkit.WebChromeClient getWebChromeClient(android.webkit.WebView)
+    public static android.webkit.WebViewClient getWebViewClient(android.webkit.WebView)
+    public static androidx.webkit.WebViewRenderProcess getWebViewRenderProcess(android.webkit.WebView)
+    public static androidx.webkit.WebViewRenderProcessClient getWebViewRenderProcessClient(android.webkit.WebView)
+    public static boolean isAudioMuted(android.webkit.WebView)
+    public static void postVisualStateCallback(android.webkit.WebView,long,androidx.webkit.WebViewCompat$VisualStateCallback)
+    public static void postWebMessage(android.webkit.WebView,androidx.webkit.WebMessageCompat,android.net.Uri)
+    public static void removeWebMessageListener(android.webkit.WebView,java.lang.String)
+    public static void setAudioMuted(android.webkit.WebView,boolean)
+    public static void setProfile(android.webkit.WebView,java.lang.String)
+    public static void setSafeBrowsingAllowlist(java.util.Set,android.webkit.ValueCallback)
+    public static void setSafeBrowsingWhitelist(java.util.List,android.webkit.ValueCallback)
+    public static void setWebViewRenderProcessClient(android.webkit.WebView,androidx.webkit.WebViewRenderProcessClient)
+    public static void setWebViewRenderProcessClient(android.webkit.WebView,java.util.concurrent.Executor,androidx.webkit.WebViewRenderProcessClient)
+    public static void startSafeBrowsing(android.content.Context,android.webkit.ValueCallback)
+androidx.webkit.WebViewFeature$WebViewStartupFeature
+androidx.webkit.WebViewFeature$WebViewSupportFeature
+androidx.webkit.WebViewFeature:
+    public static final java.lang.String ALGORITHMIC_DARKENING
+    public static final java.lang.String ATTRIBUTION_REGISTRATION_BEHAVIOR
+    public static final java.lang.String BACK_FORWARD_CACHE
+    public static final java.lang.String CREATE_WEB_MESSAGE_CHANNEL
+    public static final java.lang.String DISABLED_ACTION_MODE_MENU_ITEMS
+    public static final java.lang.String DOCUMENT_START_SCRIPT
+    public static final java.lang.String ENTERPRISE_AUTHENTICATION_APP_LINK_POLICY
+    public static final java.lang.String FORCE_DARK
+    public static final java.lang.String FORCE_DARK_STRATEGY
+    public static final java.lang.String GET_COOKIE_INFO
+    public static final java.lang.String GET_VARIATIONS_HEADER
+    public static final java.lang.String GET_WEB_CHROME_CLIENT
+    public static final java.lang.String GET_WEB_VIEW_CLIENT
+    public static final java.lang.String GET_WEB_VIEW_RENDERER
+    public static final java.lang.String MULTI_PROCESS
+    public static final java.lang.String MULTI_PROFILE
+    public static final java.lang.String MUTE_AUDIO
+    public static final java.lang.String OFF_SCREEN_PRERASTER
+    public static final java.lang.String POST_WEB_MESSAGE
+    public static final java.lang.String PROXY_OVERRIDE
+    public static final java.lang.String PROXY_OVERRIDE_REVERSE_BYPASS
+    public static final java.lang.String RECEIVE_HTTP_ERROR
+    public static final java.lang.String RECEIVE_WEB_RESOURCE_ERROR
+    public static final java.lang.String REQUESTED_WITH_HEADER_ALLOW_LIST
+    public static final java.lang.String SAFE_BROWSING_ALLOWLIST
+    public static final java.lang.String SAFE_BROWSING_ENABLE
+    public static final java.lang.String SAFE_BROWSING_HIT
+    public static final java.lang.String SAFE_BROWSING_PRIVACY_POLICY_URL
+    public static final java.lang.String SAFE_BROWSING_RESPONSE_BACK_TO_SAFETY
+    public static final java.lang.String SAFE_BROWSING_RESPONSE_PROCEED
+    public static final java.lang.String SAFE_BROWSING_RESPONSE_SHOW_INTERSTITIAL
+    public static final java.lang.String SAFE_BROWSING_WHITELIST
+    public static final java.lang.String SERVICE_WORKER_BASIC_USAGE
+    public static final java.lang.String SERVICE_WORKER_BLOCK_NETWORK_LOADS
+    public static final java.lang.String SERVICE_WORKER_CACHE_MODE
+    public static final java.lang.String SERVICE_WORKER_CONTENT_ACCESS
+    public static final java.lang.String SERVICE_WORKER_FILE_ACCESS
+    public static final java.lang.String SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST
+    public static final java.lang.String SHOULD_OVERRIDE_WITH_REDIRECTS
+    public static final java.lang.String SPECULATIVE_LOADING
+    public static final java.lang.String STARTUP_FEATURE_SET_DATA_DIRECTORY_SUFFIX
+    public static final java.lang.String STARTUP_FEATURE_SET_DIRECTORY_BASE_PATHS
+    public static final java.lang.String START_SAFE_BROWSING
+    public static final java.lang.String TRACING_CONTROLLER_BASIC_USAGE
+    public static final java.lang.String USER_AGENT_METADATA
+    public static final java.lang.String VISUAL_STATE_CALLBACK
+    public static final java.lang.String WEBVIEW_MEDIA_INTEGRITY_API_STATUS
+    public static final java.lang.String WEB_AUTHENTICATION
+    public static final java.lang.String WEB_MESSAGE_ARRAY_BUFFER
+    public static final java.lang.String WEB_MESSAGE_CALLBACK_ON_MESSAGE
+    public static final java.lang.String WEB_MESSAGE_LISTENER
+    public static final java.lang.String WEB_MESSAGE_PORT_CLOSE
+    public static final java.lang.String WEB_MESSAGE_PORT_POST_MESSAGE
+    public static final java.lang.String WEB_MESSAGE_PORT_SET_MESSAGE_CALLBACK
+    public static final java.lang.String WEB_RESOURCE_ERROR_GET_CODE
+    public static final java.lang.String WEB_RESOURCE_ERROR_GET_DESCRIPTION
+    public static final java.lang.String WEB_RESOURCE_REQUEST_IS_REDIRECT
+    public static final java.lang.String WEB_VIEW_RENDERER_CLIENT_BASIC_USAGE
+    public static final java.lang.String WEB_VIEW_RENDERER_TERMINATE
+    private void <init>()
+    public static boolean isStartupFeatureSupported(android.content.Context,java.lang.String)
+androidx.webkit.WebViewMediaIntegrityApiStatusConfig$Builder
+androidx.webkit.WebViewMediaIntegrityApiStatusConfig
+androidx.webkit.WebViewRenderProcess
+androidx.webkit.WebViewRenderProcessClient
+androidx.webkit.internal.ApiFeature$LAZY_HOLDER:
+    private void <init>()
+androidx.webkit.internal.ApiFeature:
+    public static java.util.Set getWebViewApkFeaturesForTesting()
+androidx.webkit.internal.ApiHelperForM$1
+androidx.webkit.internal.ApiHelperForM$2
+androidx.webkit.internal.ApiHelperForM$3
+androidx.webkit.internal.ApiHelperForM:
+    private void <init>()
+    public static void close(android.webkit.WebMessagePort)
+    public static android.webkit.WebMessage createWebMessage(androidx.webkit.WebMessageCompat)
+    public static android.webkit.WebMessagePort[] createWebMessageChannel(android.webkit.WebView)
+    public static androidx.webkit.WebMessageCompat createWebMessageCompat(android.webkit.WebMessage)
+    public static boolean getOffscreenPreRaster(android.webkit.WebSettings)
+    public static void postMessage(android.webkit.WebMessagePort,android.webkit.WebMessage)
+    public static void postVisualStateCallback(android.webkit.WebView,long,androidx.webkit.WebViewCompat$VisualStateCallback)
+    public static void postWebMessage(android.webkit.WebView,android.webkit.WebMessage,android.net.Uri)
+    public static void setOffscreenPreRaster(android.webkit.WebSettings,boolean)
+    public static void setWebMessageCallback(android.webkit.WebMessagePort,androidx.webkit.WebMessagePortCompat$WebMessageCallbackCompat)
+    public static void setWebMessageCallback(android.webkit.WebMessagePort,androidx.webkit.WebMessagePortCompat$WebMessageCallbackCompat,android.os.Handler)
+androidx.webkit.internal.ApiHelperForN
+androidx.webkit.internal.ApiHelperForO:
+    private void <init>()
+    public static boolean getSafeBrowsingEnabled(android.webkit.WebSettings)
+    public static android.webkit.WebChromeClient getWebChromeClient(android.webkit.WebView)
+    public static android.webkit.WebViewClient getWebViewClient(android.webkit.WebView)
+    public static void setSafeBrowsingEnabled(android.webkit.WebSettings,boolean)
+androidx.webkit.internal.ApiHelperForOMR1:
+    private void <init>()
+    public static void backToSafety(android.webkit.SafeBrowsingResponse,boolean)
+    public static android.net.Uri getSafeBrowsingPrivacyPolicyUrl()
+    public static void proceed(android.webkit.SafeBrowsingResponse,boolean)
+    public static void setSafeBrowsingWhitelist(java.util.List,android.webkit.ValueCallback)
+    public static void startSafeBrowsing(android.content.Context,android.webkit.ValueCallback)
+androidx.webkit.internal.ApiHelperForP:
+    private void <init>()
+    public static android.webkit.TracingController getTracingControllerInstance()
+    public static android.os.Looper getWebViewLooper(android.webkit.WebView)
+    public static boolean isTracing(android.webkit.TracingController)
+    public static void setDataDirectorySuffix(java.lang.String)
+    public static void start(android.webkit.TracingController,androidx.webkit.TracingConfig)
+    public static boolean stop(android.webkit.TracingController,java.io.OutputStream,java.util.concurrent.Executor)
+androidx.webkit.internal.ApiHelperForQ
+androidx.webkit.internal.ApiHelperForTiramisu
+androidx.webkit.internal.AssetHelper
+androidx.webkit.internal.CookieManagerAdapter
+androidx.webkit.internal.FrameworkServiceWorkerClient
+androidx.webkit.internal.IncompatibleApkWebViewProviderFactory:
+    private static final java.lang.String UNSUPPORTED_EXCEPTION_EXPLANATION
+    public org.chromium.support_lib_boundary.WebViewProviderBoundaryInterface createWebView(android.webkit.WebView)
+    public org.chromium.support_lib_boundary.DropDataContentProviderBoundaryInterface getDropDataProvider()
+    public org.chromium.support_lib_boundary.ProfileStoreBoundaryInterface getProfileStore()
+    public org.chromium.support_lib_boundary.ProxyControllerBoundaryInterface getProxyController()
+    public org.chromium.support_lib_boundary.ServiceWorkerControllerBoundaryInterface getServiceWorkerController()
+    public org.chromium.support_lib_boundary.TracingControllerBoundaryInterface getTracingController()
+androidx.webkit.internal.JavaScriptReplyProxyImpl
+androidx.webkit.internal.MimeUtil
+androidx.webkit.internal.ProfileImpl
+androidx.webkit.internal.ProfileStoreImpl
+androidx.webkit.internal.ProxyControllerImpl
+androidx.webkit.internal.SafeBrowsingResponseImpl:
+    public void backToSafety(boolean)
+    public void proceed(boolean)
+androidx.webkit.internal.ScriptHandlerImpl
+androidx.webkit.internal.ServiceWorkerClientAdapter
+androidx.webkit.internal.ServiceWorkerControllerImpl
+androidx.webkit.internal.ServiceWorkerWebSettingsImpl
+androidx.webkit.internal.StartupApiFeature$NoFramework:
+    public final boolean isSupportedByFramework()
+androidx.webkit.internal.StartupApiFeature$P:
+    public final boolean isSupportedByFramework()
+androidx.webkit.internal.StartupApiFeature:
+    public static final java.lang.String METADATA_HOLDER_SERVICE_NAME
+    private static android.os.Bundle getMetaDataFromWebViewManifestOrNull(android.content.Context)
+    public java.lang.String getPublicFeatureName()
+    private static android.content.pm.ServiceInfo getServiceInfo(android.content.Context,android.content.ComponentName,int)
+    public boolean isSupported(android.content.Context)
+    public abstract boolean isSupportedByFramework()
+    public boolean isSupportedByWebView(android.content.Context)
+    public static java.util.Set values()
+androidx.webkit.internal.StartupFeatures
+androidx.webkit.internal.TracingControllerImpl
+androidx.webkit.internal.UserAgentMetadataInternal
+androidx.webkit.internal.VisualStateCallbackAdapter
+androidx.webkit.internal.WebMessageAdapter
+androidx.webkit.internal.WebMessageCallbackAdapter
+androidx.webkit.internal.WebMessageListenerAdapter
+androidx.webkit.internal.WebMessagePayloadAdapter
+androidx.webkit.internal.WebMessagePortImpl
+androidx.webkit.internal.WebResourceRequestAdapter
+androidx.webkit.internal.WebSettingsAdapter
+androidx.webkit.internal.WebViewFeatureInternal:
+    private void <init>()
+    public static boolean isStartupFeatureSupported(java.lang.String,android.content.Context)
+    public static boolean isStartupFeatureSupported(java.lang.String,java.util.Collection,android.content.Context)
+androidx.webkit.internal.WebViewGlueCommunicator$LAZY_COMPAT_CONVERTER_HOLDER:
+    private void <init>()
+androidx.webkit.internal.WebViewGlueCommunicator$LAZY_FACTORY_HOLDER:
+    private void <init>()
+androidx.webkit.internal.WebViewGlueCommunicator:
+    private static final java.lang.String GLUE_FACTORY_PROVIDER_FETCHER_CLASS
+    private static final java.lang.String GLUE_FACTORY_PROVIDER_FETCHER_METHOD
+    private void <init>()
+androidx.webkit.internal.WebViewProviderAdapter
+androidx.webkit.internal.WebViewProviderFactory:
+    public abstract org.chromium.support_lib_boundary.WebViewProviderBoundaryInterface createWebView(android.webkit.WebView)
+    public abstract org.chromium.support_lib_boundary.DropDataContentProviderBoundaryInterface getDropDataProvider()
+    public abstract org.chromium.support_lib_boundary.ProfileStoreBoundaryInterface getProfileStore()
+    public abstract org.chromium.support_lib_boundary.ProxyControllerBoundaryInterface getProxyController()
+    public abstract org.chromium.support_lib_boundary.ServiceWorkerControllerBoundaryInterface getServiceWorkerController()
+    public abstract org.chromium.support_lib_boundary.TracingControllerBoundaryInterface getTracingController()
+androidx.webkit.internal.WebViewProviderFactoryAdapter:
+    public org.chromium.support_lib_boundary.WebViewProviderBoundaryInterface createWebView(android.webkit.WebView)
+    public org.chromium.support_lib_boundary.DropDataContentProviderBoundaryInterface getDropDataProvider()
+    public org.chromium.support_lib_boundary.ProfileStoreBoundaryInterface getProfileStore()
+    public org.chromium.support_lib_boundary.ProxyControllerBoundaryInterface getProxyController()
+    public org.chromium.support_lib_boundary.ServiceWorkerControllerBoundaryInterface getServiceWorkerController()
+    public org.chromium.support_lib_boundary.TracingControllerBoundaryInterface getTracingController()
+androidx.webkit.internal.WebViewRenderProcessClientAdapter
+androidx.webkit.internal.WebViewRenderProcessClientFrameworkAdapter
+androidx.webkit.internal.WebViewRenderProcessImpl
+androidx.webkit.internal.WebkitToCompatConverter:
+    public androidx.webkit.internal.CookieManagerAdapter convertCookieManager(android.webkit.CookieManager)
+    public android.webkit.ServiceWorkerWebSettings convertServiceWorkerSettings(java.lang.reflect.InvocationHandler)
+    public java.lang.reflect.InvocationHandler convertServiceWorkerSettings(android.webkit.ServiceWorkerWebSettings)
+    public androidx.webkit.internal.WebSettingsAdapter convertSettings(android.webkit.WebSettings)
+    public android.webkit.WebMessagePort convertWebMessagePort(java.lang.reflect.InvocationHandler)
+    public java.lang.reflect.InvocationHandler convertWebMessagePort(android.webkit.WebMessagePort)
+    public androidx.webkit.internal.WebResourceRequestAdapter convertWebResourceRequest(android.webkit.WebResourceRequest)
+androidx.webkit.internal.package-info
 androidx.window.EmptyDecoratorWindowSdk
 androidx.window.R$attr
 androidx.window.R$id
@@ -11166,7 +11452,6 @@ io.flutter.embedding.engine.FlutterEngineCache:
     public void clear()
     public boolean contains(java.lang.String)
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry$DefaultFlutterAssets:
-    public java.lang.String getAssetFilePathByName(java.lang.String)
     public java.lang.String getAssetFilePathByName(java.lang.String,java.lang.String)
     public java.lang.String getAssetFilePathBySubpath(java.lang.String)
     public java.lang.String getAssetFilePathBySubpath(java.lang.String,java.lang.String)
@@ -11326,8 +11611,6 @@ io.flutter.embedding.engine.loader.FlutterLoader:
     public void <init>()
     public void <init>(io.flutter.embedding.engine.FlutterJNI)
     public void ensureInitializationCompleteAsync(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable)
-    private java.lang.String fullAssetPathFrom(java.lang.String)
-    public java.lang.String getLookupKeyForAsset(java.lang.String)
     public java.lang.String getLookupKeyForAsset(java.lang.String,java.lang.String)
     private synthetic void lambda$ensureInitializationCompleteAsync$0(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable)
     private synthetic void lambda$ensureInitializationCompleteAsync$1(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable)
@@ -11365,15 +11648,12 @@ io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack$FlutterMutator:
     public android.graphics.Rect getRect()
     public io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack$FlutterMutatorType getType()
 io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterAssets:
-    public abstract java.lang.String getAssetFilePathByName(java.lang.String)
     public abstract java.lang.String getAssetFilePathByName(java.lang.String,java.lang.String)
     public abstract java.lang.String getAssetFilePathBySubpath(java.lang.String)
     public abstract java.lang.String getAssetFilePathBySubpath(java.lang.String,java.lang.String)
 io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding:
     public io.flutter.embedding.engine.FlutterEngineGroup getEngineGroup()
-    public io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterAssets getFlutterAssets()
     public io.flutter.embedding.engine.FlutterEngine getFlutterEngine()
-    public io.flutter.plugin.platform.PlatformViewRegistry getPlatformViewRegistry()
 io.flutter.embedding.engine.plugins.PluginRegistry:
     public abstract void add(java.util.Set)
     public abstract io.flutter.embedding.engine.plugins.FlutterPlugin get(java.lang.Class)
@@ -11588,13 +11868,6 @@ io.flutter.plugin.platform.PlatformPlugin:
     public static final int DEFAULT_SYSTEM_UI
     private static final java.lang.String TAG
     public void <init>(android.app.Activity,io.flutter.embedding.engine.systemchannels.PlatformChannel)
-io.flutter.plugin.platform.PlatformViewFactory:
-    private final io.flutter.plugin.common.MessageCodec createArgsCodec
-    public void <init>(io.flutter.plugin.common.MessageCodec)
-io.flutter.plugin.platform.PlatformViewRegistry:
-    public abstract boolean registerViewFactory(java.lang.String,io.flutter.plugin.platform.PlatformViewFactory)
-io.flutter.plugin.platform.PlatformViewRegistryImpl:
-    public boolean registerViewFactory(java.lang.String,io.flutter.plugin.platform.PlatformViewFactory)
 io.flutter.plugin.platform.PlatformViewRenderTarget:
     public abstract boolean isReleased()
 io.flutter.plugin.platform.PlatformViewWrapper:
@@ -11729,6 +12002,60 @@ io.flutter.plugins.sharedpreferences.SharedPreferencesPluginKt:
     public static final java.lang.String LIST_PREFIX
     public static final java.lang.String SHARED_PREFERENCES_NAME
     public static final java.lang.String TAG
+io.flutter.plugins.webviewflutter.CustomViewCallbackFlutterApiImpl:
+    void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$CustomViewCallbackFlutterApi)
+io.flutter.plugins.webviewflutter.DisplayListenerProxy:
+    private static final java.lang.String TAG
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$ConsoleMessage:
+    public io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$ConsoleMessageLevel getLevel()
+    public java.lang.Long getLineNumber()
+    public java.lang.String getMessage()
+    public java.lang.String getSourceId()
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$CookieManagerHostApi$1:
+    public void error(java.lang.Throwable)
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$FlutterError:
+    public void <init>(java.lang.String,java.lang.String,java.lang.Object)
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$Result:
+    public abstract void error(java.lang.Throwable)
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebResourceErrorData:
+    public java.lang.String getDescription()
+    public java.lang.Long getErrorCode()
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebResourceRequestData:
+    public java.lang.Boolean getHasGesture()
+    public java.lang.Boolean getIsForMainFrame()
+    public java.lang.Boolean getIsRedirect()
+    public java.lang.String getMethod()
+    public java.util.Map getRequestHeaders()
+    public java.lang.String getUrl()
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebResourceResponseData:
+    public java.lang.Long getStatusCode()
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebViewHostApi$1:
+    public void error(java.lang.Throwable)
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebViewPoint:
+    public java.lang.Long getX()
+    public java.lang.Long getY()
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView:
+    public void <init>()
+io.flutter.plugins.webviewflutter.GeolocationPermissionsCallbackFlutterApiImpl:
+    void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$GeolocationPermissionsCallbackFlutterApi)
+io.flutter.plugins.webviewflutter.InstanceManager:
+    private static final long CLEAR_FINALIZED_WEAK_REFERENCES_INTERVAL
+    private static final long MIN_HOST_CREATED_IDENTIFIER
+    private static final java.lang.String TAG
+io.flutter.plugins.webviewflutter.PermissionRequestFlutterApiImpl:
+    void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$PermissionRequestFlutterApi)
+io.flutter.plugins.webviewflutter.R
+io.flutter.plugins.webviewflutter.ViewFlutterApiImpl:
+    void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$ViewFlutterApi)
+io.flutter.plugins.webviewflutter.WebChromeClientHostApiImpl:
+    private android.content.Context context
+io.flutter.plugins.webviewflutter.WebViewFlutterAndroidExternalApi
+io.flutter.plugins.webviewflutter.WebViewFlutterApiImpl:
+    void setApi(io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$WebViewFlutterApi)
+io.flutter.plugins.webviewflutter.WebViewFlutterPlugin:
+    public io.flutter.plugins.webviewflutter.InstanceManager getInstanceManager()
+io.flutter.plugins.webviewflutter.WebViewHostApiImpl:
+    public io.flutter.plugins.webviewflutter.InstanceManager getInstanceManager()
 io.flutter.util.HandlerCompat:
     public void <init>()
 io.flutter.util.PathUtils:
@@ -18622,6 +18949,18 @@ kotlinx.coroutines.sync.SemaphoreSegment:
     public final java.lang.Object getAndSet(int,java.lang.Object)
     public final void set(int,java.lang.Object)
 kotlinx.coroutines.time.TimeKt
+org.chromium.support_lib_boundary.ProcessGlobalConfigConstants:
+    private void <init>()
+org.chromium.support_lib_boundary.util.BoundaryInterfaceReflectionUtil$InvocationHandlerWithDelegateGetter
+org.chromium.support_lib_boundary.util.BoundaryInterfaceReflectionUtil:
+    public void <init>()
+    public static boolean containsFeature(java.lang.String[],java.lang.String)
+    public static java.lang.reflect.InvocationHandler createInvocationHandlerFor(java.lang.Object)
+    public static java.lang.reflect.InvocationHandler[] createInvocationHandlersForArray(java.lang.Object[])
+    public static java.lang.reflect.Method dupeMethod(java.lang.reflect.Method,java.lang.ClassLoader)
+    public static java.lang.Object getDelegateFromInvocationHandler(java.lang.reflect.InvocationHandler)
+    public static boolean instanceOfInOwnClassLoader(java.lang.Object,java.lang.String)
+org.chromium.support_lib_boundary.util.Features
 org.intellij.lang.annotations.Flow
 org.intellij.lang.annotations.Identifier
 org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
@@ -19500,6 +19839,8 @@ androidx.loader.content.Loader
 androidx.savedstate.SavedStateRegistry$AutoRecreated:
     public abstract void onRecreated(androidx.savedstate.SavedStateRegistryOwner)
 androidx.startup.StartupLogger
+androidx.webkit.internal.StartupApiFeature:
+    static final synthetic boolean $assertionsDisabled
 androidx.window.layout.adapter.sidecar.SidecarCompat$$InternalSyntheticLambda$2$f96d32dc54d6323bf5d2aa80c8442c0730b6aa9434ee342ae61d43a067c2b7c2$0
 androidx.window.layout.adapter.sidecar.SidecarCompat$$InternalSyntheticThrowCCEIfNotNull$15$0b817d34bb50b96142f1a9a41878ff4e03d41c6b83c6df29d2df8e23f0aa0f4e$0
 androidx.window.layout.adapter.sidecar.SidecarCompat$$InternalSyntheticThrowCCEIfNotNull$15$f96d32dc54d6323bf5d2aa80c8442c0730b6aa9434ee342ae61d43a067c2b7c2$0
@@ -19916,25 +20257,6 @@ io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager:
     public abstract boolean uninstallDeferredComponent(int,java.lang.String)
 io.flutter.embedding.engine.loader.ResourceExtractor:
     abstract void waitForCompletion()
-io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView$1
-io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView:
-    android.view.ViewTreeObserver$OnGlobalFocusChangeListener activeFocusListener
-    private final io.flutter.embedding.android.AndroidTouchProcessor androidTouchProcessor
-    private int left
-    private io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack mutatorsStack
-    private int prevLeft
-    private int prevTop
-    private float screenDensity
-    private int top
-    public void <init>(android.content.Context,float,io.flutter.embedding.android.AndroidTouchProcessor)
-    public void dispatchDraw(android.graphics.Canvas)
-    public void draw(android.graphics.Canvas)
-    private android.graphics.Matrix getPlatformViewMatrix()
-    public boolean onInterceptTouchEvent(android.view.MotionEvent)
-    public boolean onTouchEvent(android.view.MotionEvent)
-    public boolean requestSendAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
-    public void setOnDescendantFocusChangeListener(android.view.View$OnFocusChangeListener)
-    public void unsetOnDescendantFocusChangeListener()
 io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding$OnSaveInstanceStateListener
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverAware
 io.flutter.embedding.engine.plugins.broadcastreceiver.BroadcastReceiverPluginBinding
@@ -19944,129 +20266,16 @@ io.flutter.embedding.engine.plugins.service.ServiceAware
 io.flutter.embedding.engine.plugins.service.ServicePluginBinding
 io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry:
     private io.flutter.view.TextureRegistry$OnFrameConsumedListener frameConsumedListener
-io.flutter.embedding.engine.renderer.FlutterRenderer:
-    public static boolean debugDisableSurfaceClear
-    public static boolean debugForceSurfaceProducerGlTextures
-    public io.flutter.view.TextureRegistry$ImageTextureEntry createImageTexture()
-    public io.flutter.view.TextureRegistry$SurfaceProducer createSurfaceProducer()
-    private void registerImageTexture(long,io.flutter.view.TextureRegistry$ImageConsumer)
-io.flutter.embedding.engine.renderer.SurfaceTextureSurfaceProducer
 io.flutter.embedding.engine.systemchannels.DeferredComponentChannel:
     private io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager deferredComponentManager
     static synthetic java.util.Map access$100(io.flutter.embedding.engine.systemchannels.DeferredComponentChannel)
     public void setDeferredComponentManager(io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager)
-io.flutter.embedding.engine.systemchannels.PlatformViewsChannel:
-    public void invokeViewFocused(int)
 io.flutter.embedding.engine.systemchannels.SettingsChannel:
     static final synthetic boolean $assertionsDisabled
 io.flutter.plugin.common.PluginRegistry$NewIntentListener
 io.flutter.plugin.common.PluginRegistry$UserLeaveHintListener
-io.flutter.plugin.editing.TextInputPlugin:
-    public void clearPlatformViewClient(int)
-io.flutter.plugin.platform.AccessibilityEventsDelegate:
-    public boolean requestSendAccessibilityEvent(android.view.View,android.view.View,android.view.accessibility.AccessibilityEvent)
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$15$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$0
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$15$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$1
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$5d14a5988b15f1a79fff1eb1beeeaa71c3afa8ed740284a6ef0d530bdf17c38a$0
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$0
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$1
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$2
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$92d9e281612abb4ff0542bc07330dc3e0771a9ce9968114b3a7500019dbcb2d5$3
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget$1
-io.flutter.plugin.platform.ImageReaderPlatformViewRenderTarget
-io.flutter.plugin.platform.PlatformView:
-    public abstract void dispose()
-    public abstract android.view.View getView()
-    public abstract void onFlutterViewAttached(android.view.View)
-    public abstract void onFlutterViewDetached()
-    public abstract void onInputConnectionLocked()
-    public abstract void onInputConnectionUnlocked()
-io.flutter.plugin.platform.PlatformViewFactory:
-    public abstract io.flutter.plugin.platform.PlatformView create(android.content.Context,int,java.lang.Object)
-    public abstract io.flutter.plugin.common.MessageCodec getCreateArgsCodec()
-io.flutter.plugin.platform.PlatformViewRenderTarget$-CC
-io.flutter.plugin.platform.PlatformViewRenderTarget
-io.flutter.plugin.platform.PlatformViewWrapper$$InternalSyntheticApiModelOutline$3$5eaa3cd00ffe1493a00efaa840ffbc51805b400b9f97425c98aa8e7048f35276$0
-io.flutter.plugin.platform.PlatformViewWrapper$$InternalSyntheticApiModelOutline$3$6c4290da811095a9d21f95641aff48dad8ba8467f8389d3f8518b763f12f860a$0
-io.flutter.plugin.platform.PlatformViewWrapper$1
-io.flutter.plugin.platform.PlatformViewWrapper:
-    private android.view.ViewTreeObserver$OnGlobalFocusChangeListener activeFocusListener
-    private int left
-    private int prevLeft
-    private int prevTop
-    private io.flutter.plugin.platform.PlatformViewRenderTarget renderTarget
-    private int top
-    private io.flutter.embedding.android.AndroidTouchProcessor touchProcessor
-    public void <init>(android.content.Context)
-    public void <init>(android.content.Context,io.flutter.plugin.platform.PlatformViewRenderTarget)
-    public void draw(android.graphics.Canvas)
-    public android.view.ViewTreeObserver$OnGlobalFocusChangeListener getActiveFocusListener()
-    public int getRenderTargetHeight()
-    public int getRenderTargetWidth()
-    public android.view.ViewParent invalidateChildInParent(int[],android.graphics.Rect)
-    public void onDescendantInvalidated(android.view.View,android.view.View)
-    public boolean onInterceptTouchEvent(android.view.MotionEvent)
-    public boolean onTouchEvent(android.view.MotionEvent)
-    public void release()
-    public boolean requestSendAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
-    public void resizeRenderTarget(int,int)
-    public void setOnDescendantFocusChangeListener(android.view.View$OnFocusChangeListener)
-    public void setTouchProcessor(io.flutter.embedding.android.AndroidTouchProcessor)
-    public void unsetOnDescendantFocusChangeListener()
-io.flutter.plugin.platform.PlatformViewsController$$InternalSyntheticLambda$1$1c4a65e590ed9543af8abcd378c1f9022fd0386bd3af6bb03cac4e5c50409e6d$0
-io.flutter.plugin.platform.PlatformViewsController$$InternalSyntheticLambda$2$40f12bf135875589f11d2dc204a96eb0bf980a594064d7162cded9fe23a81c59$0
-io.flutter.plugin.platform.PlatformViewsController$$InternalSyntheticLambda$2$dd9b2ae06a1fd59d781c6824e2c434c35f5086abb4b7038a54c79c15235eb2ed$0
-io.flutter.plugin.platform.PlatformViewsController:
-    private static boolean enableImageRenderTarget
-    private static boolean enableSurfaceProducerRenderTarget
-    public static synthetic void $r8$lambda$Js0koNjf6zxnuatjf-WXN1PQbMQ(io.flutter.plugin.platform.PlatformViewsController,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest,android.view.View,boolean)
-    public static synthetic void $r8$lambda$c46CzTBlmxMBgDE13weWOzuZzsY(io.flutter.plugin.platform.PlatformViewsController,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest,android.view.View,boolean)
-    public static synthetic void $r8$lambda$r6QCICDbKmeyB5NoMZ7OXgXe8oQ(io.flutter.plugin.platform.PlatformViewsController,int,android.view.View,boolean)
-    static synthetic android.util.SparseArray access$1000(io.flutter.plugin.platform.PlatformViewsController)
-    static synthetic int access$1400(io.flutter.plugin.platform.PlatformViewsController,double)
-    static synthetic java.lang.Class[] access$600()
-    static synthetic boolean access$700(io.flutter.plugin.platform.PlatformViewsController)
-    static synthetic long access$800(io.flutter.plugin.platform.PlatformViewsController,io.flutter.plugin.platform.PlatformView,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest)
-    public long configureForTextureLayerComposition(io.flutter.plugin.platform.PlatformView,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest)
-    private long configureForVirtualDisplay(io.flutter.plugin.platform.PlatformView,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest)
-    private synthetic void lambda$configureForTextureLayerComposition$1(io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest,android.view.View,boolean)
-    private synthetic void lambda$configureForVirtualDisplay$0(io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewCreationRequest,android.view.View,boolean)
-    private synthetic void lambda$initializePlatformViewIfNeeded$2(int,android.view.View,boolean)
-    private static io.flutter.plugin.platform.PlatformViewRenderTarget makePlatformViewRenderTarget(io.flutter.view.TextureRegistry)
-    private void maybeInvokeOnFlutterViewAttached(io.flutter.plugin.platform.PlatformView)
-    private int toLogicalPixels(double)
-io.flutter.plugin.platform.SingleViewPresentation$AccessibilityDelegatingFrameLayout:
-    private final io.flutter.plugin.platform.AccessibilityEventsDelegate accessibilityEventsDelegate
-    private final android.view.View embeddedView
-    public void <init>(android.content.Context,io.flutter.plugin.platform.AccessibilityEventsDelegate,android.view.View)
-    public boolean requestSendAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
-io.flutter.plugin.platform.SingleViewPresentation$PresentationState:
-    private io.flutter.plugin.platform.PlatformView platformView
-io.flutter.plugin.platform.SurfaceProducerPlatformViewRenderTarget
-io.flutter.plugin.platform.SurfaceTexturePlatformViewRenderTarget$$InternalSyntheticApiModelOutline$3$b75447ab0b0bed85db720a096af1381e1f84709f3fd165f6e7786b6ab1e24274$0
-io.flutter.plugin.platform.SurfaceTexturePlatformViewRenderTarget$1
-io.flutter.plugin.platform.SurfaceTexturePlatformViewRenderTarget
-io.flutter.plugin.platform.VirtualDisplayController$1
-io.flutter.plugin.platform.VirtualDisplayController$2$1
-io.flutter.plugin.platform.VirtualDisplayController$2
-io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener$1
-io.flutter.plugin.platform.VirtualDisplayController$OneTimeOnDrawListener
 io.flutter.plugin.platform.VirtualDisplayController:
     private static java.lang.String TAG
-    private final io.flutter.plugin.platform.AccessibilityEventsDelegate accessibilityEventsDelegate
-    private static android.hardware.display.VirtualDisplay$Callback callback
-    private final android.content.Context context
-    private final int densityDpi
-    private final android.view.View$OnFocusChangeListener focusChangeListener
-    io.flutter.plugin.platform.SingleViewPresentation presentation
-    private final io.flutter.plugin.platform.PlatformViewRenderTarget renderTarget
-    private final int viewId
-    private android.hardware.display.VirtualDisplay virtualDisplay
-    static void <clinit>()
-    private void <init>(android.content.Context,io.flutter.plugin.platform.AccessibilityEventsDelegate,android.hardware.display.VirtualDisplay,io.flutter.plugin.platform.PlatformView,io.flutter.plugin.platform.PlatformViewRenderTarget,android.view.View$OnFocusChangeListener,int,java.lang.Object)
-    public static io.flutter.plugin.platform.VirtualDisplayController create(android.content.Context,io.flutter.plugin.platform.AccessibilityEventsDelegate,io.flutter.plugin.platform.PlatformView,io.flutter.plugin.platform.PlatformViewRenderTarget,int,int,int,java.lang.Object,android.view.View$OnFocusChangeListener)
-    public void dispose()
-    private void resize31(android.view.View,int,int,java.lang.Runnable)
 io.flutter.plugins.pathprovider.Messages$$InternalSyntheticThrowCCEIfNotNull$15$834a600a3aabf0c5aeafefbfa6b64d968fb0f9e1b061abdf5d70c0e5a8e42173$0
 io.flutter.plugins.pathprovider.Messages$FlutterError
 io.flutter.plugins.sharedpreferences.Messages$$InternalSyntheticThrowCCEIfNotNull$15$424317060c5c3a586288f3b0e6e3d95be82898df742b9234c441817d12ff16f1$0
@@ -20074,27 +20283,13 @@ io.flutter.plugins.sharedpreferences.Messages$FlutterError
 io.flutter.plugins.sharedpreferences.MessagesAsync_gKt$$InternalSyntheticThrowCCEIfNotNull$15$80eb479ae981532e4af872e552558f8e3c33f83c55e6f8f61ab55b63f1f3c1d6$0
 io.flutter.plugins.sharedpreferences.MessagesAsync_gKt$$InternalSyntheticThrowCCEIfNotNull$15$80eb479ae981532e4af872e552558f8e3c33f83c55e6f8f61ab55b63f1f3c1d6$1
 io.flutter.plugins.sharedpreferences.SharedPreferencesError
-io.flutter.util.ViewUtils$$InternalSyntheticLambda$2$2558b30c7d8a101be24861ba93623c43e35b819105eb8e3b22ac358044105fcf$0
-io.flutter.util.ViewUtils$$InternalSyntheticLambda$2$c0aa1774cd8831658692c914ac238b83368f5d4eb3adf605ed1d77e75423b804$0
-io.flutter.util.ViewUtils$ViewVisitor
-io.flutter.util.ViewUtils:
-    public static synthetic boolean $r8$lambda$fCTTge_LdSPkmGXpjJUgJ-DuSuY(android.view.View)
-    public static synthetic boolean $r8$lambda$nQ7Z42JgbeML5raZjvKJIT-9yhw(java.lang.Class[],android.view.View)
-    public static boolean childHasFocus(android.view.View)
-    public static boolean hasChildViewOfType(android.view.View,java.lang.Class[])
-    private static synthetic boolean lambda$childHasFocus$0(android.view.View)
-    private static synthetic boolean lambda$hasChildViewOfType$1(java.lang.Class[],android.view.View)
-    public static boolean traverseHierarchy(android.view.View,io.flutter.util.ViewUtils$ViewVisitor)
-io.flutter.view.AccessibilityBridge:
-    public boolean externalViewRequestSendAccessibilityEvent(android.view.View,android.view.View,android.view.accessibility.AccessibilityEvent)
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$$InternalSyntheticThrowCCEIfNotNull$15$b11abea7ffefc43d9f347d18620a15de9f8262c293e742f55377cc52e4edf137$0
+io.flutter.plugins.webviewflutter.GeneratedAndroidWebView$FlutterError
 io.flutter.view.TextureRegistry$OnFrameConsumedListener:
     public abstract void onFrameConsumed()
 io.flutter.view.TextureRegistry$SurfaceProducer$Callback:
     public abstract void onSurfaceCreated()
     public abstract void onSurfaceDestroyed()
-io.flutter.view.TextureRegistry:
-    public abstract io.flutter.view.TextureRegistry$ImageTextureEntry createImageTexture()
-    public abstract io.flutter.view.TextureRegistry$SurfaceProducer createSurfaceProducer()
 kotlin.collections.CollectionsKt:
     public static synthetic bridge java.lang.Object firstOrNull(java.util.List)
 kotlin.collections.CollectionsKt___CollectionsKt:
@@ -20247,3 +20442,5 @@ kotlinx.coroutines.selects.SelectInstance:
 kotlinx.coroutines.selects.TrySelectDetailedResult
 kotlinx.coroutines.sync.SemaphoreImpl$$InternalSyntheticThrowCCEIfNotNull$15$7d9e7f6bad90bd63c05b35b370839b47b89d26b5be40dbf80ff6edfd82cbffaa$0
 kotlinx.coroutines.sync.SemaphoreImpl$$InternalSyntheticThrowCCEIfNotNull$15$c252e556c867cee1ac89fca692419e0d4b39bc94870e8b5ad42ffdb21485a953$0
+org.chromium.support_lib_boundary.util.BoundaryInterfaceReflectionUtil:
+    static final synthetic boolean $assertionsDisabled

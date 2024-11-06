@@ -70,6 +70,7 @@ dependencies:
   mobile_scanner: ^3.5.2
   barcode_widget: ^2.0.4
   http: ^1.2.2
+  webview_flutter: ^4.10.0
 
 
   

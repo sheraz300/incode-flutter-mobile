@@ -22,6 +22,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get password_hint => 'La tua Password';
 
   @override
+  String get forget_password => 'Hai dimenticato la password?';
+
+  @override
   String get no_account => 'Non hai un account?';
 
   @override
@@ -31,7 +34,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get login_button => 'Accedi';
 
   @override
-  String get created_with => 'Creato con <3 da';
+  String get created_with => 'Realizzato con ❤ da';
 
   @override
   String get company => 'Fenix HUB';

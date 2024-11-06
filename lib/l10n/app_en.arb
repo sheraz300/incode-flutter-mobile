@@ -4,9 +4,10 @@
   "email_hint": "johnmac@gmail.com",
   "password": "Password",
   "password_hint": "Your Password",
+  "forget_password": "Do you forget your password?",
   "no_account": "Don’t have an account?",
   "register_now": "Register Now",
   "login_button": "Login",
-  "created_with": "Created with <3 by",
+  "created_with": "Crafted with ❤ by",
   "company": "Fenix HUB"
 }

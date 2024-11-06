@@ -1,11 +1,13 @@
 // ignore_for_file: avoid_unnecessary_containers, prefer_const_constructors
 import 'package:animate_do/animate_do.dart';
 import 'package:enefty_icons/enefty_icons.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:incode/common_widgets/app_textfield.dart';
+import 'package:incode/common_widgets/custome_webview.dart';
 import 'package:incode/constants/input_formatters.dart';
 import 'package:incode/custom_widgets/custom_loader.dart';
 import 'package:incode/controllers/login_controller.dart';
@@ -22,6 +24,7 @@ class AuthScreen extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
+    // List of language options
     final localize = AppLocalizations.of(context)!;
     return Obx(
       () => Scaffold(
@@ -122,7 +125,19 @@ class AuthScreen extends GetView<LoginController> {
                                     ),
                                   ),
                                 ),
-                                const SizedBox(height: 30),
+                                // const SizedBox(height: 10),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    AppLocalizations.of(context)!
+                                        .forget_password,
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  ),
+                                ),
                               ],
                             ),
                           ),
@@ -162,7 +177,7 @@ class AuthScreen extends GetView<LoginController> {
                 //     fontWeight: FontWeight.w400,
                 //   ),
                 // ),
-                buildReg(localize),
+                // buildReg(localize),
                 const Spacer(),
                 _buildCompanyText(localize)
               ],
@@ -174,33 +189,49 @@ class AuthScreen extends GetView<LoginController> {
               child: _buildLoginBtn(controller, localize),
             ),
             Positioned(
-              top: height * 0.08, // Adjust top position
+              top: height * 0.08,
               right: height * 0.02,
-              child: DropdownButton<String>(
-                value: locController.locale.languageCode,
-                items: const [
-                  DropdownMenuItem(value: 'en', child: Text('English')),
-                  DropdownMenuItem(value: 'it', child: Text('Italian')),
-                ],
-                onChanged: (String? value) {
-                  if (value != null) {
-                    locController.setLocale(Locale(value));
-                    // Change locale using GetX
-                    Get.updateLocale(
-                        Locale(value)); // Switch to Italian locale for example
-                  }
-                },
-                icon: Icon(
-                  Icons.arrow_drop_down,
-                  color: Colors.white,
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors
+                      .transparent, // Transparent background for no visible border
                 ),
-                style: const TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                  color: Colors.black,
+                child: DropdownButton<String>(
+                  value:
+                      controller.dropdownValue.value, // Use the selected value
+                  icon: Icon(Icons.arrow_drop_down,
+                      color: Colors.white), // White icon color
+                  dropdownColor:
+                      Colors.black, // Background color of dropdown menu
+                  style: TextStyle(
+                    color: Colors.white, // Selected value color
+                  ),
+                  underline: Container(), // Removes the underline/border
+                  onChanged: (String? value) {
+                    if (value != null) {
+                      controller.dropdownValue.value = value;
+
+                      locController.setLocale(Locale(value));
+                      Get.updateLocale(
+                          Locale(value)); // Switch to the selected locale
+                    }
+                  },
+                  items: controller.list
+                      .map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(
+                        value == 'en' ? 'English' : 'Italian',
+                        style: TextStyle(
+                          color: Colors
+                              .white, // Set dropdown item text color to white
+                        ),
+                      ),
+                    );
+                  }).toList(),
                 ),
               ),
-            ),
+            )
           ],
         ),
       ),
@@ -246,7 +277,7 @@ class AuthScreen extends GetView<LoginController> {
                     localize.login,
                     style: TextStyle(
                       fontSize: 20,
-                      color: Color(0xff4D7EF9),
+                      color: Colors.black,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -273,8 +304,20 @@ class AuthScreen extends GetView<LoginController> {
             style: TextStyle(
               color: Colors.redAccent,
               fontSize: 18,
-              fontWeight: FontWeight.w700,
+              fontWeight: FontWeight.bold,
             ),
+            recognizer: TapGestureRecognizer()
+              ..onTap = () {
+                // Navigate to CustomWebviewScreen
+                Get.to(() => CustomWebviewScreen(
+                      url: "https://www.fenixhub.it/",
+                    )); // Use GetX for navigation
+                // OR, if not using GetX, use Navigator.push:
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(builder: (context) => CustomWebviewScreen()),
+                // );
+              },
           ),
         ],
       ),

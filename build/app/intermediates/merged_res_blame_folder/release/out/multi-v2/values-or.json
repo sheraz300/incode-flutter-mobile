@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.incode.app-mergeReleaseResources-31:/values-or/values-or.xml",
+            "outputFile": "com.example.incode.app-mergeReleaseResources-32:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/8470c89ba64407e2dd527ce11792b982/transformed/jetified-play-services-base-18.1.0/res/values-or/values.xml",

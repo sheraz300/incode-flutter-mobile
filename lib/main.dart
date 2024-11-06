@@ -54,6 +54,7 @@ class MyApp extends StatelessWidget {
         getPages: appRoutes(),
         initialBinding: AllBindings(),
         debugShowCheckedModeBanner: false,
+        locale: const Locale('it'),
         localizationsDelegates: const [
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
