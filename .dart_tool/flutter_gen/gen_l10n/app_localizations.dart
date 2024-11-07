@@ -149,6 +149,12 @@ abstract class AppLocalizations {
   /// **'Login'**
   String get login_button;
 
+  /// No description provided for @logout_button.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get logout_button;
+
   /// No description provided for @created_with.
   ///
   /// In en, this message translates to:

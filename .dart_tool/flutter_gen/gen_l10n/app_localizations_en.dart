@@ -34,6 +34,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get login_button => 'Login';
 
   @override
+  String get logout_button => 'Logout';
+
+  @override
   String get created_with => 'Crafted with ❤ by';
 
   @override

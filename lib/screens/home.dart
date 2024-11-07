@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:incode/utils/global_variables.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'auth/auth_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -17,6 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final localize = AppLocalizations.of(context)!;
+
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
@@ -73,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: logoutBtn(),
+                child: logoutBtn(localize),
               )
             ],
           ),
@@ -82,7 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  GestureDetector logoutBtn() {
+  GestureDetector logoutBtn(AppLocalizations localize) {
     return GestureDetector(
       onTap: () async {
         final SharedPreferences prefs = await _prefs;
@@ -108,9 +110,9 @@ class _HomeScreenState extends State<HomeScreen> {
               )
             ],
           ),
-          child: const Text(
-            "Logout",
-            style: TextStyle(
+          child: Text(
+            localize.logout_button,
+            style: const TextStyle(
               fontSize: 14,
               color: Colors.black,
               fontWeight: FontWeight.bold,
