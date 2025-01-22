@@ -1,4 +1,5 @@
 import 'package:get/instance_manager.dart';
+import 'package:incode/controllers/home_controller.dart';
 import 'package:incode/controllers/login_controller.dart';
 import 'package:incode/controllers/registeration_controller.dart';
 
@@ -7,5 +8,6 @@ class AllBindings implements Bindings {
   void dependencies() {
     Get.lazyPut(() => LoginController());
     Get.lazyPut(() => RegisterationController());
+    Get.lazyPut(() => HomeController(), fenix: true);
   }
 }

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:incode/models/registeration_model.dart';
-import 'package:incode/screens/home.dart';
+import 'package:incode/screens/home_screen.dart';
 import 'package:incode/utils/api_endpoints.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -12,6 +12,8 @@ import 'package:incode/constants/input_formatters.dart';
 import 'package:incode/custom_widgets/custom_loader.dart';
 import 'package:incode/controllers/login_controller.dart';
 import 'package:incode/localization/localization_controller.dart';
+import 'package:incode/screens/handler_screen.dart';
+import 'package:incode/screens/home_screen.dart';
 import '../../constants/validators.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -242,9 +244,10 @@ class AuthScreen extends GetView<LoginController> {
       LoginController controller, AppLocalizations localize) {
     return GestureDetector(
       onTap: () {
+        Get.off(const HandlerScreen());
         // Get.toNamed(AppRoutes.DASHBOARD);
         if (loginFormKey.currentState!.validate()) {
-          controller.loginWithEmail();
+          // controller.loginWithEmail();
         }
       },
       child: Center(
