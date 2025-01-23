@@ -57,4 +57,9 @@ class AppAssets {
   static const String arrowForWord = '${_assets}arrow_forward.svg';
 
   static const String dp = '${_assets}dp.png';
+  static const String progetti = '${_assets}progetti.svg';
+  static const String interventi = '${_assets}interventi.svg';
+  static const String scan = '${_assets}scan.svg';
+  static const String utilita = '${_assets}utilita.svg';
+  static const String profilo = '${_assets}profilo.svg';
 }

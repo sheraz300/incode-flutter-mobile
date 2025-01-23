@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:incode/common_widgets/asset_image_widget.dart';
+import 'package:incode/constants/assets.dart';
 import 'package:incode/screens/history%20screen/history_screen.dart';
 import 'package:incode/screens/home_screen.dart';
 import 'package:incode/screens/profile%20screen/profile_screen.dart';
@@ -18,6 +20,7 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
   final List<Widget> _children = [
     const HomeScreen(),
     const HistoryScreen(),
+    const SizedBox(),
     const WorkScreen(),
     const ProfileScreen(),
   ];
@@ -48,25 +51,23 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
               ),
               child: Stack(
                 children: [
-                  Row(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 14),
-                        child: Container(
-                          width: 60,
-                          height: 4,
-                          decoration: BoxDecoration(
-                            color: _currentIndex == 0
-                                ? const Color.fromRGBO(202, 33, 49, 1)
-                                : Colors.transparent,
-                            borderRadius: const BorderRadius.only(
-                              bottomLeft: Radius.circular(20),
-                              bottomRight: Radius.circular(20),
-                            ),
-                          ),
+                  AnimatedPositioned(
+                    duration: const Duration(milliseconds: 300),
+                    curve: Curves.easeInOut,
+                    left: 21.0 + (_currentIndex * 77),
+                    child: Container(
+                      width: 50,
+                      height: 4,
+                      decoration: BoxDecoration(
+                        color: _currentIndex == 2
+                            ? Colors.transparent
+                            : const Color.fromRGBO(202, 33, 49, 1),
+                        borderRadius: const BorderRadius.only(
+                          bottomLeft: Radius.circular(20),
+                          bottomRight: Radius.circular(20),
                         ),
                       ),
-                    ],
+                    ),
                   ),
                   Padding(
                     padding:
@@ -79,17 +80,16 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                           child: Column(
                             children: [
                               _currentIndex == 0
-                                  ? const Icon(Icons.menu_book,
-                                      color: Color(0xFF7D0C16))
-                                  : const Icon(
-                                      Icons.menu_book,
-                                      color: Colors.black,
+                                  ? const AssetImageWidget(
+                                      path: AppAssets.progetti,
+                                      color: Color(0xFF7D0C16),
+                                    )
+                                  : const AssetImageWidget(
+                                      path: AppAssets.progetti,
                                     ),
-                              const SizedBox(
-                                height: 4,
-                              ),
+                              const SizedBox(height: 4),
                               Text(
-                                'Projects',
+                                'Progetti',
                                 style: TextStyle(
                                   fontSize: 12,
                                   color: _currentIndex == 0
@@ -105,15 +105,16 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                           child: Column(
                             children: [
                               _currentIndex == 1
-                                  ? const Icon(Icons.history,
-                                      color: Color(0xFF7D0C16))
-                                  : const Icon(Icons.history,
-                                      color: Colors.black),
-                              const SizedBox(
-                                height: 4,
-                              ),
+                                  ? const AssetImageWidget(
+                                      path: AppAssets.interventi,
+                                      color: Color(0xFF7D0C16),
+                                    )
+                                  : const AssetImageWidget(
+                                      path: AppAssets.interventi,
+                                    ),
+                              const SizedBox(height: 4),
                               Text(
-                                'History',
+                                'Interventi',
                                 style: TextStyle(
                                   fontSize: 12,
                                   color: _currentIndex == 1
@@ -124,25 +125,46 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                             ],
                           ),
                         ),
-                        const SizedBox(
-                          width: 10,
-                        ),
                         InkWell(
                           onTap: () => onTabTapped(2),
+                          child: Padding(
+                            padding: const EdgeInsets.only(right: 16),
+                            child: Column(
+                              children: [
+                                const SizedBox(
+                                  height: 32,
+                                ),
+                                Text(
+                                  "Scan",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: _currentIndex == 2
+                                        ? const Color(0xFF7D0C16)
+                                        : Colors.black,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        InkWell(
+                          onTap: () => onTabTapped(3),
                           child: Column(
                             children: [
-                              _currentIndex == 2
-                                  ? const Icon(Icons.work,
-                                      color: Color(0xFF7D0C16))
-                                  : const Icon(Icons.work, color: Colors.black),
-                              const SizedBox(
-                                height: 4,
-                              ),
+                              _currentIndex == 3
+                                  ? const AssetImageWidget(
+                                      path: AppAssets.utilita,
+                                      color: Color(0xFF7D0C16),
+                                    )
+                                  : const AssetImageWidget(
+                                      path: AppAssets.utilita,
+                                    ),
+                              const SizedBox(height: 4),
                               Text(
-                                'Work',
+                                'Utilita',
                                 style: TextStyle(
                                   fontSize: 12,
-                                  color: _currentIndex == 2
+                                  color: _currentIndex == 3
                                       ? const Color(0xFF7D0C16)
                                       : Colors.black,
                                 ),
@@ -151,22 +173,23 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                           ),
                         ),
                         InkWell(
-                          onTap: () => onTabTapped(3),
+                          onTap: () => onTabTapped(4),
                           child: Column(
                             children: [
-                              _currentIndex == 3
-                                  ? const Icon(Icons.person,
-                                      color: Color(0xFF7D0C16))
-                                  : const Icon(Icons.person,
-                                      color: Colors.black),
-                              const SizedBox(
-                                height: 4,
-                              ),
+                              _currentIndex == 4
+                                  ? const AssetImageWidget(
+                                      path: AppAssets.profilo,
+                                      color: Color(0xFF7D0C16),
+                                    )
+                                  : const AssetImageWidget(
+                                      path: AppAssets.profilo,
+                                    ),
+                              const SizedBox(height: 4),
                               Text(
-                                'Profile',
+                                'Profilo',
                                 style: TextStyle(
                                   fontSize: 12,
-                                  color: _currentIndex == 3
+                                  color: _currentIndex == 4
                                       ? const Color(0xFF7D0C16)
                                       : Colors.black,
                                 ),
@@ -182,10 +205,15 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
             ),
           ),
           floatingActionButton: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () {
+              onTabTapped(2);
+            },
             backgroundColor: const Color(0xFF7D0C16),
             shape: const CircleBorder(),
-            child: const Icon(Icons.qr_code_scanner, color: Colors.white),
+            child: const Padding(
+              padding: EdgeInsets.all(4.0),
+              child: AssetImageWidget(path: AppAssets.scan),
+            ),
           ),
           floatingActionButtonLocation:
               FloatingActionButtonLocation.centerDocked,
